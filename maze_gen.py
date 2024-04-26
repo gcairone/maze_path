@@ -42,7 +42,7 @@ def gen_maze():
     return gridmap
 
 def gen_maze_2():
-    gridmap = preprocessing.image_to_matrix("maze_img.PNG")
+    gridmap = preprocessing.image_to_matrix("maze2.PNG")
     for i in range(47, 53):
         gridmap[i][0] = ENTRY
     for i in range(47, 53):
